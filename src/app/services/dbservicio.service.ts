@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { NativeStorage } from '@awesome-cordova-plugins/native-storage/ngx';
 import { SQLite, SQLiteObject } from '@awesome-cordova-plugins/sqlite/ngx';
 import { AlertController, Platform, ToastController } from '@ionic/angular';
-import { Storage } from '@ionic/storage';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { reduce } from 'rxjs/operators';
 import { Auto } from './auto';

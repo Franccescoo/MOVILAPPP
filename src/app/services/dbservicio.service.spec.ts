@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { ComponentFixture, waitForAsync } from '@angular/core/testing';
 import { SQLite } from '@awesome-cordova-plugins/sqlite/ngx';
 import { AlertController, IonicModule, Platform } from '@ionic/angular';
-import { platform } from 'os';
+// import { platform } from 'os';
 import { DbservicioService } from './dbservicio.service';
 
 describe('Service: dbservicio', () => {
@@ -21,21 +21,21 @@ describe('Service: dbservicio', () => {
 
   }));
 
-  it('#getValue should return real value', () => {
-    expect(service.getValue()).toBe('real value');
-  });
+  // it('#getValue should return real value', () => {
+  //   expect(service.getValue()).toBe('real value');
+  // });
 
-  it('#getObservableValue should return value from observable', (done: DoneFn) => {
-    service.getObservableValue().subscribe((value) => {
-      expect(value).toBe('observable value');
-      done();
-    });
-  });
+  // it('#getObservableValue should return value from observable', (done: DoneFn) => {
+  //   service.getObservableValue().subscribe((value) => {
+  //     expect(value).toBe('observable value');
+  //     done();
+  //   });
+  // });
 
-  it('#getPromiseValue should return value from a promise', (done: DoneFn) => {
-    service.getPromiseValue().then((value) => {
-      expect(value).toBe('promise value');
-      done();
-    });
-  });
+  // it('#getPromiseValue should return value from a promise', (done: DoneFn) => {
+  //   service.getPromiseValue().then((value) => {
+  //     expect(value).toBe('promise value');
+  //     done();
+  //   });
+  // });
 });

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationExtras } from '@angular/router';
 import { AlertController, MenuController, ToastController } from '@ionic/angular';
-import { Storage } from '@ionic/storage';
 import { Apiservices2Service } from 'src/app/services/apiservices2.service';
 import { NativeStorage } from '@awesome-cordova-plugins/native-storage/ngx';
 import { DbservicioService } from 'src/app/services/dbservicio.service';
